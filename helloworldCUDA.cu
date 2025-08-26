@@ -16,7 +16,7 @@ int main()
     cudaError_t err = cudaDeviceSynchronize();
     if (err != cudaSuccess) {
         std::cerr << "CUDA error: " << cudaGetErrorString(err) << std::endl;
-        return 1;
+        return 1;n
     }
 
     std::cout << "Hello from host!" << std::endl;
